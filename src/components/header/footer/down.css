@@ -1,0 +1,9 @@
+.dfooter {
+    padding: 15px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #eee; */
+    border-top: 1px solid #ccc;
+    color: #777;
+}

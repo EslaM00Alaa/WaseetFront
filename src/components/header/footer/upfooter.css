@@ -1,0 +1,58 @@
+.upFppter {
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #eee; */
+    color: var(--black-color);
+}
+
+.upFppter .icons {
+    display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 300px;
+}
+.upFppter .icons div {
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.upFppter .icons div i {
+    font-size: 20px;
+}
+.face {
+    color: #3b5998;
+}
+.insta {
+    color: #c32aa3;
+}
+.whats {
+    color: #25d366;
+}
+.contactUs {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactUs i {
+color:  #4285f4;
+margin-left: 4px;
+}
+@media (max-width:980px)
+{
+ .upFppter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+ }   
+ .icons {
+    margin: 12px;
+ }
+}
