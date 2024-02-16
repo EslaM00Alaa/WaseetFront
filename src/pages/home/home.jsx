@@ -57,7 +57,7 @@ const Home = () => {
                  
                </Link>
 
-               <Link to="rent"  className="service">
+               <Link to="hire"  className="service">
                <img src={rent} alt="" />
                   <h4>
                   ايجار عقار
