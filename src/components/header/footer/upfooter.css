@@ -56,3 +56,7 @@ margin-left: 4px;
     margin: 12px;
  }
 }
+a{
+    text-decoration: none !important;
+    color:  #4285f4;
+}
